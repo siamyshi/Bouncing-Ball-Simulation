@@ -5,7 +5,7 @@ window.bgcolor("white")
 window.title("Bouncing Ball Simulation")
 
 ball = turtle.Turtle()
-ball.shape("square")
+ball.shape("circle")
 ball.color("black")
 ball.penup()
 ball.speed(0)
@@ -20,3 +20,5 @@ while True:
     
     if ball.ycor() < -300:
         ball.dy *= -1
+
+window.mainloop()
